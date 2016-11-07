@@ -105,7 +105,7 @@ section {
 	border: 1px solid #dddddd;
 	max-width: 600px;
 	padding: 40px 24px 40px 24px;
-	margin: 30px 20px 60px 0px;
+	margin: 30px 20px 50px 0px;
 	overflow: auto;
 
 }
@@ -197,6 +197,7 @@ aside li	{
 aside li a {
 	display: block;
 	margin: auto;
+	height: 75px;
 }
 
 aside li a:hover {
@@ -266,11 +267,11 @@ input[type=submit]:hover {
 
 .wrapper {
 	min-height: 100%;
-	margin: 0 auto -100px;
+	margin: 0 auto -40px;
 }
 
 footer, .push {
-	height: 100px;
+	height: 40px;
 	color: #cccccc;
 	background-color: #666666;
 	clear: both;
@@ -283,44 +284,54 @@ footer, .push {
 @media only screen and  (max-width: 980px) {
 
 	h1 {
-	margin: 0;
-    text-align: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 10px;
-    width: 250px;
-    float: left;
-    position: relative;
-    top: 5px;
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: 1px;
+		margin: 0;
+    	text-align: center;
+    	padding-top: 24px;
+    	padding-bottom: 24px;
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	width: 250px;
+    	float: left;
+    	position: relative;
+    	top: 5px;
+    	font-size: 32px;
+    	font-weight: bold;
+    	letter-spacing: 1px;
 
-}
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 22px;
+	}
 
 	nav {
-	height: 35px;
-	padding: 25px;
-}
+		height: 35px;
+		padding: 25px;
+	}
 
-nav li a {
-	font-size: 19px;
-	display: block;
-	color: #777777;
-	padding: 0 15px 0 15px;
-	margin: 4px;
-	text-align: center;
-	text-decoration: none;
-	position: relative;
-	top: 5px;
-	left: 20px;
-	letter-spacing: .25px;
-}
+	nav li a {
+		font-size: 19px;
+		display: block;
+		color: #777777;
+		padding: 0 15px 0 15px;
+		margin: 4px;
+		text-align: center;
+		text-decoration: none;
+		position: relative;
+		top: 5px;
+		left: 20px;
+		letter-spacing: .25px;
+	}
 	
-.container {
-	max-width: 780px;
-	margin: 0 auto 0 auto;
-}
+	.container {
+		max-width: 780px;
+		margin: 0 auto 0 auto;
+	}
+	
 	section {
 		width: 420px;
 	}
@@ -328,18 +339,18 @@ nav li a {
 	#jon-image {
 		width: 350px;
 		margin: 10px 35px 10px 35px;
-}
+	}
 
 	.responsive {
 		float: none;
 		padding: 0;
 		margin: 45px;
-}
+	}
 	.port-image {
 		padding: 0 0 0 50px;
 		width: 225px;
 		height: 300px;
-}
+	}
 
 	.desc {
 		color: #ffffff;
@@ -354,6 +365,244 @@ nav li a {
 		width: 225px;
 		padding: 10px 0 10px 0;
 		margin-left: 50px;
+		}
+
+}
+
+@media only screen and  (max-width: 768px) {
+
+	h1 {
+		margin: 0;
+    	text-align: center;
+    	padding-top: 24px;
+    	padding-bottom: 24px;
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	width: 250px;
+    	float: left;
+    	position: relative;
+    	top: 5px;
+    	font-size: 32px;
+    	font-weight: bold;
+    	letter-spacing: 1px;
+
 	}
+
+	nav {
+		height: 35px;
+		padding: 25px;
+	}
+
+	nav li a {
+		font-size: 19px;
+		display: block;
+		color: #777777;
+		padding: 0 15px 0 15px;
+		margin: 4px;
+		text-align: center;
+		text-decoration: none;
+		position: relative;
+		top: 5px;
+		left: 20px;
+		letter-spacing: .25px;
+	}
+
+	.container {
+		max-width: 640px;
+		margin: 0 auto 0 auto;
+	}
+	
+
+	section {
+		width: 640px;
+		margin-bottom: 0;
+	}
+
+	aside {
+		width: 610px;
+		padding: 20px 20px 40px 20px;
+    	margin: 35px 0px 40px 0px;
+    	text-align: left;
+	}
+
+	.link-image {
+		width: 75px;
+		margin: 8px;
+		padding:0;
+
+}
+
+	aside li a {
+		display: block;
+		margin: auto;
+		height: 91px;
+	}
+
+	#jon-image {
+		width: 250px;
+		margin: 10px 25px 10px 0;
+	}
+
+	.responsive {
+		float: left;
+		padding: 0;
+		margin: 45px;
+	}
+
+	.port-image {
+		padding: 0;
+		width: 225px;
+		height: 300px;
+	}
+
+	.desc {
+		color: #ffffff;
+		background-color: #4aaaa5;
+		border-color: #cccccc;
+		font-family: "Georgia", Times, "Times New Roman", serif;
+		letter-spacing: 1px;
+		margin: 0;
+		text-align: center;
+		position: relative;
+		top: -80px;
+		width: 225px;
+		padding: 10px 0 10px 0;
+		margin-left: 0;
+	}
+	
+	div .img {
+		width: 200px;
+		height: 280px;
+	}
+
+
+}
+
+@media only screen and  (max-width: 640px) {
+
+	h1 {
+    	margin: 0;
+    	text-align: center;
+    	padding-top: 30px;
+    	padding-bottom: 30px;
+    	padding-left: 0;
+    	padding-right: 0;
+    	width: 100%;
+    	float: none;
+    	font-size: 40px;
+    	font-weight: bold;
+    	letter-spacing: 1px;
+
+	}
+
+	header .container {
+		margin: 0;
+		padding: 0;
+		width: 640px;
+		position: static;
+
+	}
+
+	nav {
+		height: 30px;
+		padding: 20px;
+	}
+
+	nav li a {
+		font-size: 19px;
+		display: block;
+		color: #777777;
+		padding: 0 15px 0 15px;
+		margin: 0 28px 0 28px;
+		text-align: center;
+		text-decoration: none;
+		position: relative;
+		top: 5px;
+		left: 0px;
+		letter-spacing: .25px;
+	}
+
+	#line-portfolio 	{
+		border-left: 1px solid #cccccc;
+		border-right: 1px solid #cccccc;
+		width: 175px;
+	}
+
+	
+	.container {
+		max-width:100%;
+		margin: 0;
+	}
+
+
+	section {
+		width: 480px;
+		margin-bottom: 0;
+		margin-left: 40px;
+		overflow: auto;
+		padding-bottom: 30px;
+	}
+
+	aside {
+		width: 490px;
+		padding: 20px 20px 40px 20px;
+    	margin: 35px 0px 40px 40px;
+    	text-align: left;
+	}
+
+	.link-image {
+		width: 75px;
+		margin: 8px;
+		padding:0;
+
+}
+
+	aside li a {
+		display: block;
+		margin: auto;
+		height: 91px;
+	}
+
+	#jon-image {
+    	width: 375px;
+    	margin: 10px 52.5px 20px 52.5px;
+	}
+
+	.responsive {
+		float: left;
+		padding: 0;
+		margin: 45px;
+	}
+
+	.responsive {
+		float: none;
+		padding: 0;
+		margin: 45px;
+	}
+	.port-image {
+		padding: 0 0 0 50px;
+		width: 300px;
+		height: 375px;
+	}
+
+	.desc {
+		color: #ffffff;
+		background-color: #4aaaa5;
+		border-color: #cccccc;
+		font-family: "Georgia", Times, "Times New Roman", serif;
+		letter-spacing: 1px;
+		margin: 0;
+		text-align: center;
+		position: relative;
+		top: -80px;
+		width: 300px;
+		padding: 10px 0 10px 0;
+		margin-left: 50px;
+		}
+
+	div .img {
+		margin-bottom: 125px;
+	}
+
 
 }
